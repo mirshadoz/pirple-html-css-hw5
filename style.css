@@ -1,0 +1,61 @@
+/*NEW CSS*/
+header {
+    background-color: antiquewhite;
+}
+
+.dashed-div {
+    border: 3px dotted;
+    margin: 20px;
+    padding: 10px;
+}
+
+header > div > h1 {
+    padding: 10px;
+}
+
+main {
+  background-color: lightcyan;
+}
+
+.quoted-text {
+  font-size: 22px;
+  background-color: yellow;
+  font-weight: bold;    
+}
+
+.italic-style-text {
+  font-size: 18px;
+  font-style: italic;
+}
+
+div.dashed-div > h2 {
+    text-decoration: underline;
+}
+
+footer > div.dashed-div > p {
+    font-family: cursive;
+    text-align: center;
+}
+
+ul > li {
+    list-style-image: url("smile1.png");
+
+}
+
+#instructions li {
+    list-style-type: lower-roman;
+}
+
+p span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+div p span:last-of-type {
+    text-decoration: underline;
+}
+
+.special-class {
+    font-style: normal;
+    color: red;
+}
